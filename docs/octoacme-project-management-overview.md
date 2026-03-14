@@ -19,6 +19,13 @@ Applies to all cross-functional projects that deliver product features, services
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+- Release Manager: owns the end-to-end release process, from scheduling to post-deploy review.
+- QA Automation Engineer: builds and maintains automated test suites and CI quality gates.
+- UX Designer: translates product requirements into user flows, designs, and prototypes.
+- Support Specialist: resolves escalated customer issues and feeds learnings back to Product and Engineering.
+- DevOps Engineer: builds and operates the CI/CD pipelines and deployment infrastructure.
+
+For detailed responsibilities and interaction guidance for each role, see [docs/octoacme-roles-and-personas.md](octoacme-roles-and-personas.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +51,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Operational checklists and guidance are available under `docs/`: see [release-manager-checklist.md](release-manager-checklist.md) for the release process and [qa-automation-guidelines.md](qa-automation-guidelines.md) for CI/test integration practices.
